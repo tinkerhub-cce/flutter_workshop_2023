@@ -91,14 +91,14 @@ class _MyHomePageState extends State<MyHomePage> {
               )),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text('Push The Button to Confirm Amal Is a Killadee:',
+            child: Text('Push The Button to Confirm Sai Is a Killadee:',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: MediaQuery.of(context).size.width > 600 ? 30 : 10,
                   fontWeight: FontWeight.bold,
                 )),
           ),
-          Text('You Have confirmed Amal Is a Killadee $_counter Times',
+          Text('You Have confirmed Sai Is a Killadee $_counter Times',
               style: TextStyle(
                 color: Colors.amber,
                 fontSize: MediaQuery.of(context).size.width > 600 ? 35 : 15,
@@ -107,12 +107,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ]),
       ),
       floatingActionButton: FloatingActionButton(
-        
         onPressed: _incrementCounter,
         tooltip: 'Killadee Button',
-        child: 
-            const Icon(Icons.fire_extinguisher_sharp),
-          
+        child: const Icon(Icons.fire_extinguisher_sharp),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
